@@ -1,0 +1,66 @@
+/* .background{
+    height: 100% !important;
+    width:  100% !important;
+} */
+
+#sect1{
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* background: radial-gradient(circle, rgb(7, 59, 2), rgb(10, 0, 0)) !important; */
+  background-image:url("../../assets/The CodeBays Company-4.png");
+  background-size: 100% 100%;
+}
+
+/* body, html {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle, rgb(7, 59, 2), rgb(10, 0, 0));
+  } */
+
+  .about-us{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    /* border: 10px solid green; */
+    padding: 50px;
+}
+
+  .spacedvertical
+  {
+      height: 2rem !important;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .table{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .zoom {
+    transition: transform 15s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+video{
+    max-width: 100%;
+    height: auto;
+  
+}
+
+  .abcd{
+      width: 100%;
+      height: auto;
+  }
+
+.titleofPage
+{
+  margin: auto;
+  align-items: center;
+}
